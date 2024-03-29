@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocol and Port Information</title>
+</head>
+<body>
+    <h1>Protocol and Port Information</h1>
+    <ul>
+        {% for protocol, port in protocol_port_list %}
+            <li>Protocol: {{ protocol }}, Port: {{ port }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
